@@ -25,7 +25,7 @@ const MainSection = () => {
   return (
     <Main id="/">
       <MainBackground>
-        <VideoBackground autoPlay loop muted src={Video} type="video/mp4" />
+        <VideoBackground playsInline autoPlay loop muted src={Video} type="video/mp4" />
       </MainBackground>
       <MainContent>
         <Zoom left>
